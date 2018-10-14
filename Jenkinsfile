@@ -6,7 +6,7 @@ pipeline {
         stage ('Build Stage') {
 
             steps {
-			dir("/var/lib/jenkins/workspace/pipeline"){
+			dir("/var/lib/jenkins/workspace/Pipeline"){
 			sh 'mvn clean install'
             }
             }
