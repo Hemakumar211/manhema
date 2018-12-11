@@ -7,7 +7,7 @@ pipeline {
 
             steps {
 			dir("/var/lib/jenkins/workspace/pipeline"){
-			sh 'mvn clean install'
+			sh 'mvn clean package'
             }
             }
         }
