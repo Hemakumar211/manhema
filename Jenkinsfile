@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] ) {
     stages {
 		
         stage ('Build Stage') {
