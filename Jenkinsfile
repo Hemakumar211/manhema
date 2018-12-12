@@ -1,5 +1,9 @@
 pipeline {
     agent any
+	
+	tools {
+    maven 'Apache Maven'
+  }
 
     stages {
 		
@@ -18,7 +22,7 @@ pipeline {
 
             steps {
                 
-                    sh 'cp /var/lib/jenkins/workspace/pipeline/target/simple-web-app.war /opt/apache-tomcat-8.5.34/webapps '
+                    sh 'cp /var/lib/jenkins/workspace/pipeline/target/simple-web-app.war /opt/apache-tomcat-8.5.35/webapps '
               
             }
         }
