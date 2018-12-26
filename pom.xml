@@ -200,7 +200,7 @@
 	</build>
 	 <distributionManagement>
               <repository>
-		  <id>1</id>
+		  <id>deployment</id>
 	          <name>Internal releases</name>
 		      <url>http://3.16.75.20:8081/repository/sample-release/</url>
 	      </repository>
