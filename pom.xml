@@ -206,7 +206,7 @@
 	      </repository>
 	      <snapshotRepository>
 		  <id>deployment</id>
-		  <name>2</name>
+		  <name>snapshot</name>
 		  <url>http://3.16.75.20:8081/repository/snapshot/</url>
 	      </snapshotRepository>
 	 </distributionManagement>
