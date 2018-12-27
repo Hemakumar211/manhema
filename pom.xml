@@ -23,7 +23,7 @@
 	<groupId>org.mitre</groupId>
 	<artifactId>simple-web-app</artifactId>
 	<packaging>war</packaging>
-	<version>1.4.0-RELEASES1</version>
+	<version>1.4.0-RELEASES</version>
 	<properties>
 		<java-version>1.8</java-version>
 		<mitreid-connect-version>1.3.1</mitreid-connect-version>
@@ -201,13 +201,13 @@
 	 <distributionManagement>
               <repository>
 		  <id>deployment</id>
-	          <name>Releases1</name>
-		      <url>http://18.191.27.248:8081/nexus/content/repositories/12345/</url>
+	          <name>Releases</name>
+		      <url>http://18.191.27.248:8081/nexus/content/repositories/releases/</url>
 	      </repository>
 	      <snapshotRepository>
 		  <id>deployment</id>
-		  <name>Snapshots1</name>
-		  <url>http://18.191.27.248:8081/nexus/content/repositories/1234/</url>
+		  <name>Snapshots</name>
+		  <url>http://18.191.27.248:8081/nexus/content/repositories/snapshots/</url>
 	      </snapshotRepository>
 	 </distributionManagement>
 	<name>simple-web-app</name>
