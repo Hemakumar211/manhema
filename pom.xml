@@ -200,9 +200,9 @@
 	</build>
 	 <distributionManagement>
               <repository>
-		  <id>releases</id>
-	          <name>Releases</name>
-		      <url>http://18.191.225.181:8081/nexus/content/repositories/releases/</url>
+		  <id>test</id>
+	          <name>test</name>
+		      <url>http://18.191.225.181:8081/nexus/content/repositories/test/</url>
 	      </repository>
 	      <snapshotRepository>
 		  <id>snapshots</id>
