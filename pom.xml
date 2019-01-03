@@ -202,12 +202,12 @@
               <repository>
 		  <id>snapshots</id>
 	          <name>Releases</name>
-		      <url>http://18.191.27.248:8081/nexus/content/repositories/releases/</url>
+		      <url>http://18.218.34.73:8081/nexus/content/repositories/releases/</url>
 	      </repository>
 	      <snapshotRepository>
 		  <id>snapshots</id>
 		  <name>Snapshots</name>
-		  <url>http://18.191.27.248:8081/nexus/content/repositories/snapshots/</url>
+		  <url>http://18.218.34.73:8081/nexus/content/repositories/snapshots/</url>
 	      </snapshotRepository>
 	 </distributionManagement>
 	<name>simple-web-app</name>
