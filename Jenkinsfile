@@ -1,7 +1,9 @@
-tools{
- maven 'Apache Maven 3.5.4'
-}
-node{
+pipeline{
+    agent any
+   tools{
+   maven 'Apache Maven 3.5.4'
+   }
+stages {
     stage('scm checkout')
     {
     git 'https://github.com/Hemakumar211/manu'
@@ -11,4 +13,5 @@ node{
     
         sh 'mvn package'
     }
+}
 }
