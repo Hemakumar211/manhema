@@ -1,3 +1,6 @@
+tools{
+ maven 'Apache Maven 3.5.4'
+}
 node{
     stage('scm checkout')
     {
@@ -5,7 +8,7 @@ node{
     }
     stage('compile package')
     {
-    def mvnhome = tool name: 'Apache Maven 3.5.4', type: 'maven'
-        sh "${mvnhome}/bin/mvn package"
+    
+        sh 'mvn package'
     }
 }
