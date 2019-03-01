@@ -1,5 +1,5 @@
 node {
-  stage('scm checkout){
+  stage('scm checkout'){
         git 'https://github.com/Hemakumar211/manu.git'
         }
    stage('compile-package')
