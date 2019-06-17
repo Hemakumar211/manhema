@@ -20,14 +20,14 @@ node
         sh "${mvnhome}/bin/mvn sonar:sonar"
         }
     }
+    stage('deployment stage){
+          
+          sh 'cp /var/lib/jenkins/workspace/pipeline-project/target/*.war /opt/apache-tomcat-8.5.41/webapps/'
+          
+          }
     
     
 }
-  stage('email notification'){
-  mail bcc: '', body: '''hi welcome to jenkins email alerts
-  thanks
-  hemakumar''', cc: '', from: '', replyTo: '', subject: 'Jenkinsjob', to: 'khema0211@gmail.com'
   
-  }
 
 }
