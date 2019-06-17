@@ -20,14 +20,9 @@ node
         sh "${mvnhome}/bin/mvn sonar:sonar"
         }
     }
-    stage('deployment stage){
-          
-          sh 'cp /var/lib/jenkins/workspace/pipeline-project/target/*.war /opt/apache-tomcat-8.5.41/webapps/'
-          
-          }
     
     
 }
   
 
-}
+
